@@ -10,7 +10,6 @@ function Person(name, job, age) {
   this.fetchJob = function () {
     console.log(`${this.name} is a ${this.job}`);
   };
-  this.test = sup;
 }
 
 function Programmer(name, job, age, languages) {
@@ -38,13 +37,13 @@ function Programmer(name, job, age, languages) {
   };
 }
 
-// const rob2 = new Programmer(`rob`, `student`, `22`, [`html`, `css`, `JS`]);
-// rob2.listLanguages();
-// rob2.learnLanguage(`C#`);
-// rob2.listLanguages();
-// rob2.offerNewTask();
-// rob2.completeTask();
-// rob2.offerNewTask();
+const rob2 = new Programmer(`rob`, `student`, `22`, [`html`, `css`, `JS`]);
+rob2.listLanguages();
+rob2.learnLanguage(`C#`);
+rob2.listLanguages();
+rob2.offerNewTask();
+rob2.completeTask();
+rob2.offerNewTask();
 
 const rob3 = new Programmer(`timmy`, `teacher`, `23`, [
   `html`,
